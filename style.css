@@ -1,0 +1,32 @@
+/* =============================TAGS====================================== */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Saira Extra Condensed";
+}
+/* =============================CLASSES===================================== */
+.m-bg-red {
+  background-color: rgb(177, 47, 47);
+}
+.m-color-red {
+  color: rgb(177, 47, 47);
+}
+.m-font-huge {
+  font-size: 5rem;
+}
+.sec-height {
+  min-height: 100vh;
+}
+/* From: https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css April 8,2020 */
+/* and https://developer.mozilla.org/en-US/docs/Web/CSS/:target  */
+section:target:before {
+  content: "";
+  display: block;
+  height: 200px;
+  margin: -100px 0 0;
+}
+/* ====================================IDs==================================== */
+#icons i:hover {
+  color: rgb(177, 47, 47);
+}
