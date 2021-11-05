@@ -1,6 +1,7 @@
 /* =============================TAGS====================================== */
 html {
   scroll-behavior: smooth;
+  position: relative;
 }
 body {
   font-family: "Saira Extra Condensed";
@@ -16,7 +17,7 @@ body {
   font-size: 5rem;
 }
 .sec-height {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 /* From: https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css April 8,2020 */
 /* and https://developer.mozilla.org/en-US/docs/Web/CSS/:target  */
