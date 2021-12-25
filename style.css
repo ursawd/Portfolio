@@ -31,7 +31,7 @@ p {
 section:target:before {
   content: "";
   display: block;
-  height: 200px;
+  height: 150px;
   margin: -100px 0 0;
 }
 /* ====================================IDs==================================== */
